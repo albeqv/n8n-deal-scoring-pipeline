@@ -31,7 +31,3 @@ The client received hundreds of leads a day from marketing campaigns. After a ca
 ## Stack
 
 n8n · HubSpot CRM API · Anthropic Claude · ERP REST API
-
-## Use it
-
-Import `deal_scoring_pipeline.json` into n8n, then set the HubSpot private app, Anthropic and ERP header-auth credentials. Custom deal properties used: `deal_score`, `priority_tier`, `ai_rationale`, `source_campaign`, `erp_opportunity_id`, `erp_stage`.
